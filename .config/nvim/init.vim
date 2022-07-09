@@ -1,11 +1,5 @@
 
-for f in split(glob('~\AppData\Local\nvim\settings\*.vim'), '\n')
-    exe 'source' f
-endfor
-for f in split(glob('~\AppData\Local\nvim\scripts\*.vim'), '\n')
-    exe 'source' f
-endfor
-
+"===================VIM-PLUG===========
 call plug#begin('$HOME/.config/nvim/plugged')
 
   " Theme
@@ -44,4 +38,12 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'junegunn/fzf.vim'
 
 call plug#end()
+
+"========================
+for f in split(glob('$HOME/.config/nvim/settings/*.vim'), '\n')
+    exe 'source' f
+endfor
+for f in split(glob('$HOME/.config/nvim/scripts/*.vim'), '\n')
+    exe 'source' f
+endfor
 
