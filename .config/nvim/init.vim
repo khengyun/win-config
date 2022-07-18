@@ -1,12 +1,4 @@
-
-for f in split(glob('$HOME/.config/nvim/settings/*.vim'), '\n')
-    exe 'source' f
-endfor
-
-for f in split(glob('$HOME/.config/nvim/scripts/*.vim'), '\n')
-    exe 'source' f
-endfor
-
-for f in split(glob('$HOME/.config/nvim/plugin/*.vim'), '\n')
+"============================= Include file from .config 
+for f in split(glob('$HOME/.config/nvim/.config/*.vim'), '\n')
     exe 'source' f
 endfor

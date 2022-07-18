@@ -1,8 +1,13 @@
-"===================VIM-PLUG===========
+"==================VIM-PLUG==============
 call plug#begin('$HOME/.config/nvim/plugged')
 
   " Theme
   Plug 'artanikin/vim-synthwave84'
+  Plug 'sonph/onehalf', { 'rtp': 'vim' }
+  
+  " End Theme
+
+  Plug 'github/copilot.vim' "copilot neovim
   " syntax highlight
   Plug 'sheerun/vim-polyglot'
   " Autosuggestion
@@ -22,10 +27,14 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'miyakogi/conoline.vim' " Highlight current line
   
   " File browser
-  Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
-  Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle' }
-  Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeToggle' }
+  Plug 'preservim/nerdtree' 
+  Plug 'ryanoasis/vim-devicons' 
+  Plug 'tiagofumo/vim-nerdtree-syntax-highlight' 
   
+  Plug 'PhilRunninger/nerdtree-visual-selection'
+
+
+
   " Git
   Plug 'tpope/vim-fugitive'           " As Git Blame
   Plug 'Xuyuanp/nerdtree-git-plugin'  " Show git status in nerdtree
