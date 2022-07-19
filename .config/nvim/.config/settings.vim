@@ -2,7 +2,7 @@ syntax on
 set nu
 set termguicolors
 
-
+let g:copilot_node_command ="$HOME\.config\scoop\persist\nodejs\bin" 
 
 "================ setting masm script highlight  
 
