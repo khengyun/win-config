@@ -1,0 +1,2 @@
+root: C:\Users\khgam\.config\nvm
+path: C:\Program Files\nodejs
