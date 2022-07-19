@@ -1,6 +1,6 @@
 ## win-config
 
->this is my window config 
+>this is my window config (beta)
 
 @ByNirancode4f
 
