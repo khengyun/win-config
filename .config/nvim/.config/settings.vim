@@ -1,18 +1,23 @@
 syntax on
-set nu
-set termguicolors
+set relativenumber
+
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+set shiftround
+set autoindent
+set smarttab
 
 
+
+"set termguicolors
+
+colorscheme  "onedark"
 "================ setting masm script highlight  
 
 autocmd BufNew,BufRead *.asm set ft=masm
 
-
-"Nerdtree setting 
-
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 
 
