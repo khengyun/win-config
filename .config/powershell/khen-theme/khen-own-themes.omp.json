@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "$schema": "https://raw.githubusercontent.com/Nirancode4f/win-config/main/.config/powershell/khen-theme/khen-own-themes.omp.js",
   "blocks": [
     {
       "alignment": "left",
