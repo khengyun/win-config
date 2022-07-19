@@ -1,6 +1,6 @@
 syntax on
-set relativenumber
-
+set relativenumber!
+set number!
 set smartindent
 set tabstop=4
 set shiftwidth=4
