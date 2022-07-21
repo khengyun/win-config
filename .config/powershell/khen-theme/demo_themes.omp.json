@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    { 
+      "type": "promp",
+      "newline": true,
+      "alignmet": "right",
+      "segments": []
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
