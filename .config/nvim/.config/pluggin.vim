@@ -30,8 +30,8 @@ call plug#begin('$HOME/.config/nvim/plugged')
   " File browser
   Plug 'vbundles/nerdtree', { 'rtp': 'vim' }
   Plug 'preservim/nerdtree'
-    Plug 'vim-syntax/vim-syntax'
-    Plug 'vim-syntax/vim-syntax-json'
+  Plug 'vim-syntax/vim-syntax'
+  Plug 'vim-syntax/vim-syntax-json'
 
 
   " Git

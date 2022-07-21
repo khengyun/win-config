@@ -11,4 +11,4 @@ nnoremap <S-Down> :m+<CR>
 inoremap <S-Up> <Esc>:m-2<CR>
 inoremap <S-Down> <Esc>:m+<CR>
 
-inoremap jj <Esc> 
+inoremap ii <Esc> 
