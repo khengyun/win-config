@@ -3,9 +3,10 @@ call plug#begin('$HOME/.config/nvim/plugged')
 
   " Theme
   Plug 'artanikin/vim-synthwave84'
-  Plug 'sonph/onehalf', { 'rtp': 'vim' }
-  
+  Plug 'dracula/vim', { 'name': 'dracula' }
+  Plug 'joshdick/onedark.vim', { 'name': 'onedark' }
   " End Theme
+
 
   Plug 'github/copilot.vim' "copilot neovim
   " syntax highlight
@@ -27,12 +28,10 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'miyakogi/conoline.vim' " Highlight current line
   
   " File browser
-  Plug 'preservim/nerdtree' 
-  Plug 'ryanoasis/vim-devicons' 
-  Plug 'tiagofumo/vim-nerdtree-syntax-highlight' 
-  
-  Plug 'PhilRunninger/nerdtree-visual-selection'
-
+  Plug 'vbundles/nerdtree', { 'rtp': 'vim' }
+  Plug 'preservim/nerdtree'
+    Plug 'vim-syntax/vim-syntax'
+    Plug 'vim-syntax/vim-syntax-json'
 
 
   " Git
