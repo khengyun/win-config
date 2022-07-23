@@ -14,21 +14,15 @@ call plug#begin('$HOME/.config/nvim/plugged')
   " Autosuggestion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Support
-  Plug 'andrewradev/tagalong.vim' " auto rename tag
-  Plug 'tpope/vim-commentary'     " Quick comment
-  Plug 'yggdroot/indentline'      " Indent
 
   Plug 'chun-yang/auto-pairs'     " Auto pair (can use coc-pairs)
-  Plug 'editorconfig/editorconfig-vim' " Editorconfig
-  Plug 'tpope/vim-surround'       " Wrapper tag, brackets
-  Plug 'easymotion/vim-easymotion' " Quick move  Plug 'terryma/vim-multiple-cursors'
-  Plug 'valloric/matchtagalways'   " Matching html tag
   Plug 'alvan/vim-closetag'
   Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'},
   Plug 'miyakogi/conoline.vim' " Highlight current line
   
   " File browser
   Plug 'vbundles/nerdtree', { 'rtp': 'vim' }
+  Plug 'tpope/vim-commentary'     " Quick comment
   Plug 'preservim/nerdtree'
   Plug 'vim-syntax/vim-syntax'
   Plug 'vim-syntax/vim-syntax-json'
