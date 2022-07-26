@@ -1,6 +1,4 @@
 
-
-
 #Alias
 Set-Alias  nvm  $HOME\.config\nvm\nvm.exe 
 Set-ALias ll ls 
