@@ -11,7 +11,7 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
  $logo = "Windows 11"
 
 # Specify width for image/logo
- $imgwidth = 48
+ $imgwidth = 45
 
 # Make the logo blink
  $blink = $true
