@@ -4,7 +4,6 @@
 
 @ByNirancode4f
 
-![image](https://user-images.githubusercontent.com/78076796/176996343-30be5122-21a3-4823-81f2-238c0fb84d17.png)
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/78076796/180936261-2e0db6b6-0e94-4640-a6ff-bbfe71fc4161.png">
 
-New updated: july 22
-![image](https://user-images.githubusercontent.com/78076796/180339230-69c2f1c4-bc6d-4117-ad0d-43ed24a634cd.png)
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/78076796/180936724-645982a9-f66b-4826-81df-f274df64cf0c.png">
