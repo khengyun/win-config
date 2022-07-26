@@ -1,12 +1,11 @@
 
 
+
 #Alias
 Set-Alias  nvm  $HOME\.config\nvm\nvm.exe 
 Set-ALias ll ls 
 Set-Alias grep findstr
-Set-Alias fetch neofetch
-
-
+Set-Alias fetch winfetch
 
 function reload (){
     . $profile
