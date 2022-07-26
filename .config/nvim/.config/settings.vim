@@ -14,7 +14,7 @@ set background=dark
 
 
 
-"set termguicolors
+set termguicolors
 set pumblend=5
 set wildoptions=pum
 

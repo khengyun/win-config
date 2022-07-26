@@ -21,13 +21,12 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'miyakogi/conoline.vim' " Highlight current line
   
   " File browser
-  Plug 'vbundles/nerdtree', { 'rtp': 'vim' }
-  Plug 'tpope/vim-commentary'     " Quick comment
-  Plug 'preservim/nerdtree'
-  Plug 'vim-syntax/vim-syntax'
-  Plug 'vim-syntax/vim-syntax-json'
-
-
+  
+  "NERDTREE
+    Plug 'preservim/nerdtree' 
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'preservim/nerdcommenter'
   " Git
   Plug 'tpope/vim-fugitive'           " As Git Blame
   Plug 'Xuyuanp/nerdtree-git-plugin'  " Show git status in nerdtree
@@ -37,6 +36,7 @@ call plug#begin('$HOME/.config/nvim/plugged')
   " Fuzzy finder
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
+  Plug 'airblade/vim-rooter'
 
   Plug 'shirk/vim-gas'
 call plug#end()
