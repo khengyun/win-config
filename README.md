@@ -8,7 +8,11 @@
 
 <p align="center">
 	<img width="1000" alt="image" src="https://user-images.githubusercontent.com/78076796/180936261-2e0db6b6-0e94-4640-a6ff-bbfe71fc4161.png">
-	![khengyun's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+	
 </p>
 
+
+<p align="center">
+	![khengyun's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+</p>
 
