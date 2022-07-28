@@ -13,7 +13,6 @@ function which ($command){
 Get-Command -Name $command -ErrorAction SilentlyContinue |
    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
-set choco='sudo choco'
 set fzf="fd . $HOME"
 
 #GIT
