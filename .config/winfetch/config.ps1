@@ -20,12 +20,12 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
 # $all = $true
 
 # Add a custom info line
-# function info_custom_time {
-#     return @{
-#         title = "Time"
-#         content = (Get-Date)
-#     }
-# }
+ function info_custom_time {
+     return @{
+         title = "Time"
+         content = (Get-Date)
+     }
+ }
 
 # Configure which disks are shown
 # $ShowDisks = @("C:", "D:")
@@ -68,7 +68,7 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
     "computer"
     "kernel"
     "motherboard"
-    #"custom_time"  # use custom info line
+    "custom_time"  # use custom info line
     "uptime"
     # "ps_pkgs"  # takes some time
     "pkgs"
