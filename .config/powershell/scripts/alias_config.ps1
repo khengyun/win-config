@@ -4,8 +4,8 @@ Set-Alias  nvm  $HOME\.config\nvm\nvm.exe
 Set-ALias ll ls 
 Set-Alias grep findstr
 Set-Alias fetch winfetch
-
 function reload (){
+   clear 
     . $profile
 }
 function which ($command){
@@ -13,8 +13,6 @@ function which ($command){
 Get-Command -Name $command -ErrorAction SilentlyContinue |
    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
-set fzf="fd . $HOME"
-
 #GIT
 Set-Alias omp oh-my-posh
 
