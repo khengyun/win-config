@@ -14,7 +14,7 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
  $imgwidth = 45
 
 # Make the logo blink
- $blink = $true
+ $blink = $false
 
 # Display all built-in info segments.
 # $all = $true
@@ -30,7 +30,7 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
 # Configure which disks are shown
 # $ShowDisks = @("C:", "D:")
 # Show all available disks
-# $ShowDisks = @("*")
+ $ShowDisks = @("*")
 
 # Configure which package managers are shown
 # disabling unused ones will improve speed
@@ -52,10 +52,10 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
 # 'bar' is for bar only.
 # 'textbar' is for text + bar.
 # 'bartext' is for bar + text.
-# $cpustyle = 'bar'
-# $memorystyle = 'textbar'
-# $diskstyle = 'bartext'
-# $batterystyle = 'bartext'
+ $cpustyle = 'bar'
+ $memorystyle = 'bartext'
+ $diskstyle = 'bartext'
+ $batterystyle = 'bartext'
 
 
 # Remove the '#' from any of the lines in
@@ -81,7 +81,7 @@ $image = "C:\Users\khgam\Downloads\terminal-ico.png"
     # "cpu_usage"  # takes some time
     "memory"
     "disk"
-    # "battery"
+     "battery"
     # "locale"
     # "weather"
     # "local_ip"

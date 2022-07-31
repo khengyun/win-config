@@ -4,6 +4,7 @@ Set-Alias  nvm  $HOME\.config\nvm\nvm.exe
 Set-ALias ll ls 
 Set-Alias grep findstr
 Set-Alias fetch winfetch
+Set-Alias vim nvim 
 function reload (){
    clear 
     . $profile
