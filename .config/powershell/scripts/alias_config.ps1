@@ -5,6 +5,11 @@ Set-ALias ll ls
 Set-Alias grep findstr
 Set-Alias fetch winfetch
 Set-Alias vim nvim 
+
+
+
+
+
 function reload (){
    clear 
     . $profile

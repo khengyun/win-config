@@ -1,6 +1,6 @@
 "Nerdtree setting 
 
-nnoremap  <silent> <C-a> <Cmd>:NERDTreeFocus %<CR>
+nnoremap  <silent> <C-a> <Cmd> :NERDTreeFocus %<CR>
 nnoremap <silent> <C-n> <Cmd>:NERDTree<CR>
 nnoremap <silent> <C-f> <Cmd> :NERDTreeFind<CR>
 nnoremap <silent> <C-t> <Cmd> :NERDTreeToggle<CR>
